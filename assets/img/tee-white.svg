@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+<rect width="800" height="1000" fill="#f6f5f2"/>
+<g transform="translate(400,470)">
+<path d="M-210,-150 L-120,-210 C-90,-235 -60,-250 0,-250 C60,-250 90,-235 120,-210 L210,-150 L170,-40 L120,-70 L120,300 L-120,300 L-120,-70 L-170,-40 Z"
+      fill="#f2f0eb" stroke="rgba(0,0,0,.08)" stroke-width="2"/>
+<path d="M-120,-210 C-70,-150 70,-150 120,-210" fill="none" stroke="rgba(0,0,0,.12)" stroke-width="3"/>
+</g>
+<text x="400" y="500" font-family="Arial, sans-serif" font-size="46" font-weight="700"
+      fill="#1a1a1a" text-anchor="middle" letter-spacing="4">OFF-WHITE</text>
+<text x="400" y="930" font-family="Arial, sans-serif" font-size="34" font-weight="800"
+      fill="rgba(0,0,0,.25)" text-anchor="middle" letter-spacing="8">CRRS</text>
+</svg>

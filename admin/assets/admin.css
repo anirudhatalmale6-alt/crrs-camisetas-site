@@ -1,0 +1,48 @@
+/* CRRS admin — painel simples e direto. */
+:root{--accent:#111;--bg:#f4f4f5;--card:#fff;--line:#e6e6e8;--muted:#8a8a90;--fg:#18181b;--ok:#2e7d32;--danger:#c0392b}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+a{color:inherit}
+.topbar{background:var(--accent);color:#fff;padding:0 22px;height:58px;display:flex;align-items:center;justify-content:space-between}
+.topbar .logo{font-weight:800;letter-spacing:.2em}
+.topbar nav{display:flex;gap:20px;align-items:center}
+.topbar nav a{font-size:14px;opacity:.85;text-decoration:none}
+.topbar nav a:hover,.topbar nav a.active{opacity:1;text-decoration:underline}
+.wrap{max-width:1000px;margin:30px auto;padding:0 22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin-bottom:22px}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:18px;margin:0 0 16px}
+.sub{color:var(--muted);margin:0 0 22px}
+label{display:block;font-size:13px;font-weight:600;margin:14px 0 6px}
+input[type=text],input[type=number],input[type=password],input[type=email],textarea,select{
+  width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font:inherit;background:#fff}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--accent)}
+textarea{resize:vertical}
+.row{display:flex;gap:16px;flex-wrap:wrap}
+.row>div{flex:1;min-width:180px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:0;padding:11px 20px;
+  border-radius:9px;font-weight:600;cursor:pointer;text-decoration:none;font-size:14px}
+.btn:hover{opacity:.88}
+.btn.sm{padding:7px 13px;font-size:13px}
+.btn.ghost{background:#fff;color:var(--fg);border:1px solid var(--line)}
+.btn.danger{background:var(--danger)}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:middle;font-size:14px}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+td img{width:52px;height:64px;object-fit:cover;border-radius:7px;background:#eee}
+.badge{display:inline-block;font-size:12px;padding:3px 9px;border-radius:999px;background:#eef;border:1px solid #dde}
+.badge.off{background:#fdecec;border-color:#f6caca;color:#a33}
+.badge.on{background:#eaf7ec;border-color:#c7ecd0;color:#256b32}
+.actions{display:flex;gap:8px;justify-content:flex-end}
+.flash{padding:12px 16px;border-radius:9px;margin-bottom:18px;font-size:14px}
+.flash.ok{background:#e9f7ec;border:1px solid #c7ecd0;color:var(--ok)}
+.flash.err{background:#fdecec;border:1px solid #f6caca;color:var(--danger)}
+.help{color:var(--muted);font-size:12px;margin-top:4px}
+.login-box{max-width:360px;margin:9vh auto;background:#fff;border:1px solid var(--line);border-radius:14px;padding:32px}
+.login-box h1{text-align:center;letter-spacing:.25em}
+.thumb-prev{width:90px;height:112px;object-fit:cover;border-radius:9px;border:1px solid var(--line);margin-top:8px;background:#f2f2f2}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+@media(max-width:640px){
+  .hide-sm{display:none}
+  td img{width:40px;height:50px}
+}

@@ -1,0 +1,4 @@
+data/crrs.db
+data/*.db
+uploads/p_*
+_preview/
